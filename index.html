@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+          <span>  <h1>LOGO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#flex-container">Features</a></li>
+                    <li><a href="#About Us">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav></span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to our Platform</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum, ex a fringilla tincidunt,
+                turpis lacus scelerisque libero, in aliquet dolor odio ac ipsum.
+            </p>
+            <a href="#contact" class="cta-button">Explore More</a>
+        </div>
+    </section>
+
+            <div class="flex-container">
+             <div class="feature">
+                <!-- <img src="icon1.png" alt="Feature 1"> -->
+                <h3>Feature 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div> 
+            <div class="feature">
+                <!-- <img src="icon2.png" alt="Feature 2"> -->
+                <h3>Feature 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <!-- <img src="icon3.png" alt="Feature 3"> -->
+                <h3>Feature 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div> </div>
+
+    <section id="About Us" class="About Us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione. Libero, temporibus dolorum ad soluta obcaecati voluptas nobis reprehenderit similique consequatur asperiores deserunt nostrum dolore, neque tempore eos adipisci aperiam?</p>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2023 Kashif Khan. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
