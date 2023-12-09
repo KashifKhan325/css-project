@@ -69,6 +69,7 @@ nav a {
 
 .cta-button:hover {
     background-color: #2980b9;
+    text-align: center;
 }
 
 .features {
@@ -94,7 +95,12 @@ div.feature{
     flex-wrap: wrap;
   }
   .About-Us{
-    background-color: #ccc;
+    background-color: #cccccc96;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top:40px ;
   }
  
 
@@ -138,6 +144,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 button:hover {
